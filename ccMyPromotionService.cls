@@ -33,7 +33,7 @@ global with sharing class ccTrainingPromotionService extends ccrz.ccServicePromo
 ccrz.ccLog.log(System.LoggingLevel.DEBUG,'M:X:ccMyPromotionService:setLongURL:imageURI',imageURI);
 
 
-            if(imageSource == 'URI' || String.isBlank(imageURI)) {
+            if(imageSource == 'URI' && String.isBlank(imageURI)) {
                 
             	promotion.put('imageURI', longImageURI);
         	}
