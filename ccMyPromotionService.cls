@@ -1,4 +1,4 @@
-global with sharing class ccTrainingPromotionService extends ccrz.ccServicePromotion {
+global with sharing class ccMyPromotionService extends ccrz.ccServicePromotion {
     
     global virtual override Map<String, Object> getFieldsMap(Map<String, Object> inputData) 
    	{
