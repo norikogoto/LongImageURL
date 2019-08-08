@@ -1,3 +1,11 @@
+/**
+ *
+ * Created by Noriko Goto
+ * Copyright 2019 CloudCraze Software, LLC. All rights reserved.
+ * Redistribution and use in source or binary forms, with or without
+ * modification is PROHIBITED.
+ *
+ */
 global with sharing class ccMyPromotionService extends ccrz.ccServicePromotion {
     
     global virtual override Map<String, Object> getFieldsMap(Map<String, Object> inputData) 
